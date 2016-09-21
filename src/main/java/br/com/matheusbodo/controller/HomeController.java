@@ -6,12 +6,10 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class HomeController {
 
+	public static String TESTE = "Teste";
+	
     @RequestMapping("/")
     public String index() {
-    	int i = 0;
-    	while (i == 0) {
-    		System.out.println("Teste");
-    	}
         return "Bem vindo, Matheus!";
     }
 
