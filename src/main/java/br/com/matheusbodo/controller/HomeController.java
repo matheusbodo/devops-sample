@@ -8,6 +8,10 @@ public class HomeController {
 
     @RequestMapping("/")
     public String index() {
+    	int i = 0;
+    	while (i == 0) {
+    		System.out.println("Teste");
+    	}
         return "Bem vindo, Matheus!";
     }
 
