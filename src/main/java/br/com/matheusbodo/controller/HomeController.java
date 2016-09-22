@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class HomeController {
 
-	public static String TESTE = "Teste";
+	public static final String TESTE = "Teste";
 	
     @RequestMapping("/")
     public String index() {
